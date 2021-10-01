@@ -2,6 +2,7 @@ import { Avatar, Card, CardContent, CardHeader, CardMedia, Typography } from '@m
 import { red } from '@mui/material/colors';
 import React from 'react';
 
+
 const Singlenews = (props) => {
     const {author,title,urlToImage,publishedAt,description} =props.article;
 
